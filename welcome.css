@@ -1,0 +1,158 @@
+ {box-sizing: border-box;} 
+      }
+     body{ font: 14px sans-serif; text-align: center; }
+     body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+     body{ font: 14px sans-serif;
+        color:white; }
+      body {
+  height: 500px;
+ background-image: url("images/pica.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ }  
+    .center {
+  margin: auto;
+  width: 30%;
+  border: 5px solid transparent;;
+  padding: 10px;
+
+    body {
+            padding-top: 80px;
+            bgcolor: blue;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+
+}
+         {
+  box-sizing: border-box;
+}
+
+
+
+        
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: violet;
+            cursor: pointer;
+            text: white;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: black;
+        }
+        .checked {
+       color: orange;
+        }
+
+.w3-lobster {
+  font-family: "Lobster", Sans-serif;
+}
+//to add OPEN NAV{
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index:1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+.default:hover {
+  background: #e7e7e7;
+}
